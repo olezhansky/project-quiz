@@ -1,0 +1,52 @@
+.Header {
+  background: #478ba2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.colorset {
+  background: #478ba2;
+  background: #de5b6d;
+  background: #e9765b;
+  background: #f2a490;
+  background: #b9d4db;
+}
+.headerTitle {
+  text-align: center;
+  flex: 1 1 auto;
+}
+h1 {
+  font-size: 35px;
+  line-height: 80px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.headerWrapper {
+  display: flex;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+}
+.menuUl {
+  display: flex;
+}
+.menuItem {
+  font-size: 16px;
+  color: #fff;
+  margin: 0 10px;
+  border: 1px solid rgb(255, 255, 255);
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  cursor: pointer;
+}
+.menuItem:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.2s ease 0s;
+}

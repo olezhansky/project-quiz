@@ -1,0 +1,125 @@
+[
+    {
+      "id": 1,
+      "question": "quiz1",
+      "img": "../img/css-quize/css-01.jpg",
+      "answers": [
+          {"id": 1,"text": "0px", "isCorrect": false},
+          {"id": 2,"text": "100%", "isCorrect": true},
+          {"id": 3,"text": "100px", "isCorrect": false},
+          {"id": 4,"text": "0%", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "quiz2",
+      "img": "../img/css-quize/css-02.jpg",
+      "answers": [
+          {"id": 1,"text": "...800deg", "isCorrect": false},
+          {"id": 2,"text": "...360deg", "isCorrect": false},
+          {"id": 3,"text": "...180deg", "isCorrect": false},
+          {"id": 4,"text": "...720deg", "isCorrect": true}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-03.jpg",
+      "answers": [
+          {"id": 1,"text": "До 4 свойств", "isCorrect": true},
+          {"id": 2,"text": "Только одно", "isCorrect": false},
+          {"id": 3,"text": "Только два", "isCorrect": false},
+          {"id": 4,"text": "До 8 свойств", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-04.jpg",
+      "answers": [
+          {"id": 1, "text": "...аббревиатур", "isCorrect": false},
+          {"id": 2, "text": "...важных слов", "isCorrect": false},
+          {"id": 3, "text": "...выделенных слов", "isCorrect": true},
+          {"id": 4, "text": "...менее важных слов", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-05.jpg",
+      "answers": [
+          {"id": 1, "text": "hidden", "isCorrect": false},
+          {"id": 2, "text": "scroll", "isCorrect": false},
+          {"id": 3, "text": "visible", "isCorrect": true},
+          {"id": 4, "text": "auto", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-06.jpg",
+      "answers": [
+          {"id": 1, "text": "word-wrap", "isCorrect": false},
+          {"id": 2, "text": "letter-spacing", "isCorrect": false},
+          {"id": 3, "text": "content", "isCorrect": false},
+          {"id": 4, "text": "writing-mode", "isCorrect": true},
+          {"id": 5, "text": "text-indent", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-07.jpg",
+      "answers": [
+          {"id": 1, "text": "...высоту 20% от видимой части окна", "isCorrect": false},
+          {"id": 2, "text": "...высоту 20 px", "isCorrect": false},
+          {"id": 3, "text": "...высоту 2% от видимой части окна", "isCorrect": true},
+          {"id": 4, "text": "...высоту 200px", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-08.jpg",
+      "answers": [
+          {"id": 1, "text": "text-transform: uppercase", "isCorrect": false},
+          {"id": 2, "text": "text-transform: capitalize", "isCorrect": true},
+          {"id": 3, "text": "text-decoration-style: solid", "isCorrect": false},
+          {"id": 4, "text": "text-transform: lowercase", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-09.jpg",
+      "answers": [
+          {"id": 1, "text": "Со всех сторон 20px", "isCorrect": false},
+          {"id": 2, "text": "Со всех сторон 10px", "isCorrect": true},
+          {"id": 3, "text": "Сверху и снизу 20px, по бокам 10px", "isCorrect": false},
+          {"id": 4, "text": "Сверху и снизу 10px, по бокам 20px", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 10,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-10.jpg",
+      "answers": [
+          {"id": 1, "text": "box-shadow: 0 0 5px #000", "isCorrect": false},
+          {"id": 2, "text": "img-shadow: inset 0 0 5px #000", "isCorrect": false},
+          {"id": 3, "text": "box-shadow: inset 0 0 5px #000", "isCorrect": true},
+          {"id": 4, "text": "img-shadow: inset 5px #000", "isCorrect": false}
+      ]
+    },    
+    {
+      "id": 11,
+      "question": "quiz3",
+      "img": "../img/css-quize/css-11.jpg",
+      "answers": [
+          {"id": 1, "text": "space-evenly", "isCorrect": false},
+          {"id": 2, "text": "column-reverse", "isCorrect": true},
+          {"id": 3, "text": "inherit", "isCorrect": false},
+          {"id": 4, "text": "space-between", "isCorrect": false}
+      ]
+    }    
+]
+    

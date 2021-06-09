@@ -1,0 +1,12 @@
+.logItem {
+    width: 200px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background: rgb(175, 175, 175);
+}
+.correct {
+   background: rgb(108, 255, 78); 
+}
+.incorrect {
+    background: rgb(255, 46, 46);
+}

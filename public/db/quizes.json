@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "question": "quiz1",
+      "answers": [
+          {"id": 1, "text": "answer1", "isCorrect": true},
+          {"id": 2, "text": "answer2", "isCorrect": false},
+          {"id": 3, "text": "answer3", "isCorrect": false},
+          {"id": 4, "text": "answer4", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "quiz2",
+      "answers": [
+          {"id": 1, "text": "answer1", "isCorrect": false},
+          {"id": 2, "text": "answer2", "isCorrect": false},
+          {"id": 3, "text": "answer3", "isCorrect": false},
+          {"id": 4, "text": "answer4", "isCorrect": true}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "quiz3",
+      "answers": [
+          {"id": 1, "text": "answer1", "isCorrect": false},
+          {"id": 2, "text": "answer2", "isCorrect": false},
+          {"id": 3, "text": "answer3", "isCorrect": true},
+          {"id": 4, "text": "answer4", "isCorrect": false}
+      ]
+    }
+]
+    

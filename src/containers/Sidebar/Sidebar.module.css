@@ -1,0 +1,6 @@
+.SideBar {
+  background: #555555;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 20px;
+}

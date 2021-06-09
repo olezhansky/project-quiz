@@ -1,0 +1,11 @@
+.wrapper {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: 118px auto 50px;
+  min-height: 100vh;
+}
+.container {
+  margin: 0px auto;
+  max-width: 900px;
+}

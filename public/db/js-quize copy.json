@@ -1,0 +1,127 @@
+[
+    {
+      "id": 1,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-01.jpg",
+      "answers": [
+          {"id": 1, "text": "var num='string';", "isCorrect": false},
+          {"id": 2, "text": "var xY = 0;", "isCorrect": false},
+          {"id": 3, "text": "var b = false;", "isCorrect": false},
+          {"id": 4, "text": "var num = 12,5;", "isCorrect": true},
+          {"id": 5, "text": "Все записаны верно", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-02.jpg",
+      "answers": [
+          {"id": 1, "text": "10", "isCorrect": false},
+          {"id": 2, "text": "20", "isCorrect": true},
+          {"id": 3, "text": "0", "isCorrect": false},
+          {"id": 4, "text": "undefined", "isCorrect": false},
+          {"id": 5, "text": "error", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-03.jpg",
+      "answers": [
+          {"id": 1, "text": "from left to right", "isCorrect": false},
+          {"id": 2, "text": "from undefined to undefined", "isCorrect": false},
+          {"id": 3, "text": "udefined", "isCorrect": false},
+          {"id": 4, "text": "error", "isCorrect": true}
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-04.jpg",
+      "answers": [
+          {"id": 1, "text": "4, 7", "isCorrect": true},
+          {"id": 2, "text": "4, 4", "isCorrect": false},
+          {"id": 3, "text": "1, 4", "isCorrect": false},
+          {"id": 4, "text": "undefined undefined", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-05.jpg",
+      "answers": [
+          {"id": 1, "text": "9", "isCorrect": false},
+          {"id": 2, "text": "10", "isCorrect": false},
+          {"id": 3, "text": "undefined", "isCorrect": true},
+          {"id": 4, "text": "error", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 6,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-06.jpg",
+      "answers": [
+          {"id": 1, "text": "Iikejs", "isCorrect": true},
+          {"id": 2, "text": "undefined", "isCorrect": false},
+          {"id": 3, "text": "referenceError", "isCorrect": false},
+          {"id": 4, "text": "''", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-07.jpg",
+      "answers": [
+          {"id": 1, "text": "16", "isCorrect": false},
+          {"id": 2, "text": "4", "isCorrect": false},
+          {"id": 3, "text": "6", "isCorrect": false},
+          {"id": 4, "text": "20", "isCorrect": true},
+          {"id": 5, "text": "20", "undefined": false}
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-08.jpg",
+      "answers": [
+          {"id": 1, "text": "true", "isCorrect": false},
+          {"id": 2, "text": "false", "isCorrect": true},
+          {"id": 3, "text": "undefined", "isCorrect": false},
+          {"id": 4, "text": "error", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-09.jpg",
+      "answers": [
+          {"id": 1, "text": "66", "isCorrect": false},
+          {"id": 2, "text": "undefined", "isCorrect": false},
+          {"id": 3, "text": "ReferenceError", "isCorrect": true }        
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-10.jpg",
+      "answers": [
+          {"id": 1, "text": "undefined", "isCorrect": false},
+          {"id": 2, "text": "NaN", "isCorrect": false},
+          {"id": 3, "text": "0", "isCorrect": false},
+          {"id": 4, "text": "Infinity", "isCorrect": false},
+          {"id": 5, "text": "Error", "isCorrect": false}
+      ]
+    },
+    {
+      "id": 11,
+      "question": "Что выведет консоль?",
+      "img": "../img/js-quize/js-11.jpg",
+      "answers": [
+          {"id": 1, "text": "undefined", "isCorrect": false},
+          {"id": 2, "text": "true", "isCorrect": false},
+          {"id": 3, "text": "false", "isCorrect": false},
+          {"id": 4, "text": "Error", "isCorrect": false}
+      ]
+    }
+]
+    
