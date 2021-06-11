@@ -7,7 +7,6 @@ import Log from "./components/Log";
 import Footer from './containers/Footer/Footer'
 import Main from "./containers/Main/Main";
 
-
 function App() {
   const [quizes, setQuizes] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -17,8 +16,7 @@ function App() {
   const handleCorrectAnswers = (answer, quizId) => {
       setUserAnswers([...userAnswers, { ...answer, quizId }])
   }
-
-  const handleOnIsNext = () => {
+  const handleOnNext = () => {
     setTimeout(() => {
       setCurrentQuestion(currentQuestion + 1);
     }, 1000)
@@ -31,7 +29,6 @@ function App() {
     });
   }, []);
 
-
   return (
     <div className="wrapper">
       <Header />
@@ -43,7 +40,7 @@ function App() {
           quizId={quizes[currentQuestion].id}
           currentQuestion={currentQuestion}
           correctAnswers={handleCorrectAnswers}
-          onIsNext={handleOnIsNext}
+          onNext={handleOnNext}
         />
       }
       {quizes.length <= currentQuestion && <Log userAnswers={userAnswers}/> }

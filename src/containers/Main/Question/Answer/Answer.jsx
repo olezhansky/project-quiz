@@ -2,11 +2,11 @@ import React from "react";
 import styles from "./Answer.module.css";
 import classnames from "classnames";
 
-const Answer = ({ answer, onClick, answerId, onIsNext }) => {
+const Answer = ({ answer, onClick, answerId, onNext }) => {
   
   const handleClick = () => {
     onClick(answer);
-    onIsNext();
+    onNext();
   };
 
   return (

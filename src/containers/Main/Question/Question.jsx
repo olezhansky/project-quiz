@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import Answer from './Answer/Answer'
 import styles from "./Question.module.css";
 
-const Question = ({ quiz, onIsNext, quizesLength, currentQuestion, correctAnswers }) => {
+const Question = ({ quiz, onNext, quizesLength, currentQuestion, correctAnswers }) => {
   const [answerId, setAnswerId] = useState(null);
   
   const handleIsCorrect = (answer) => {
     setAnswerId(answer.id);
     correctAnswers(answer, quiz.id);
     setTimeout(() => {
-      onIsNext();
+      onNext();
       setAnswerId(null);
     }, 1000);
   };
@@ -27,7 +27,7 @@ const Question = ({ quiz, onIsNext, quizesLength, currentQuestion, correctAnswer
             return (
               <Answer
                 key={index}
-                onIsNext={onIsNext}
+                onNext={onNext}
                 answer={answer}
                 onClick={handleIsCorrect}
                 answerId={answerId}

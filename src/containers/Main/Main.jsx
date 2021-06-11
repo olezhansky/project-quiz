@@ -2,7 +2,7 @@ import React from 'react'
 import Question from './Question/Question'
 import QuizNavi from './QuizNavi/QuizNavi'
 
-const Main = ({quizes, userAnswers, quizId, currentQuestion, correctAnswers, onIsNext}) => {
+const Main = ({quizes, userAnswers, quizId, currentQuestion, correctAnswers, onNext}) => {
     return (
         <div>
           <QuizNavi quizes={quizes} userAnswers={userAnswers} quizId={quizId}/>
@@ -11,7 +11,7 @@ const Main = ({quizes, userAnswers, quizId, currentQuestion, correctAnswers, onI
             correctAnswers={correctAnswers}
             quizesLength={quizes.length}
             quiz={quizes[currentQuestion]}
-            onIsNext={onIsNext}
+            onNext={onNext}
             ></Question>
         </div>
           
