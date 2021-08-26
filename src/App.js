@@ -7,7 +7,11 @@ import Log from './components/Log';
 import Footer from './containers/Footer/Footer';
 import Main from './containers/Main/Main';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchQuizes, setCurrentQuestionAction } from './store/actions';
+import {
+  fetchQuizes,
+  setCurrentQuestionAction,
+  setUserAnswersAction,
+} from './store/actions';
 
 function App() {
   const dispatch = useDispatch();
@@ -16,11 +20,14 @@ function App() {
   const quizes = useSelector((state) => state.quizes);
 
   const currentQuestion = useSelector((state) => state.currentQuestion);
+  // const userAnswers = useSelector((state) => state.userAnswers);
 
   const [userAnswers, setUserAnswers] = useState([]);
+  console.log(userAnswers);
 
   const handleCorrectAnswers = (answer, quizId) => {
     console.log(answer);
+    dispatch(setUserAnswersAction(answer, quizId));
     setUserAnswers([...userAnswers, { ...answer, quizId }]);
     console.log(userAnswers);
   };

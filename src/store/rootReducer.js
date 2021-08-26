@@ -4,6 +4,7 @@ const initialState = {
   quizes: [],
   isLoading: true,
   currentQuestion: 0,
+  userAnswers: []
 };
 
 export const rootReducer = (state = initialState, action) => {
@@ -25,6 +26,11 @@ export const rootReducer = (state = initialState, action) => {
         ...state,
         currentQuestion: state.currentQuestion + 1
       };
+    // case SET_USER_ANSWERS:
+    //   return {
+    //     ...state,
+    //     userAnswers: [...state.userAnswers, { ...action.payload.answer, action.payload.quizId }]
+    //   };
     default:
       return state;
   }
