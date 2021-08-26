@@ -1,12 +1,42 @@
+.Wrapper {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+}
+.Title {
+  font-size: 24px;
+  line-height: 24px;
+}
+.List {
+  margin-top: 15px;
+}
 .logItem {
-    width: 200px;
-    padding: 10px 0;
-    margin-bottom: 10px;
-    background: rgb(175, 175, 175);
+  width: 200px;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  background: rgb(175, 175, 175);
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
 }
 .correct {
-   background: rgb(108, 255, 78); 
+  background: rgb(108, 255, 78);
 }
 .incorrect {
-    background: rgb(255, 46, 46);
+  background: rgb(255, 46, 46);
+}
+.Text {
+  font-size: 22px;
+  line-height: 24px;
+}
+.ButtonRestart {
+  margin-top: 15px;
+  padding: 10px 0;
+  max-width: 200px;
+  font-size: 22px;
+  line-height: 24px;
+  background: rgb(108, 255, 78);
+  border-radius: 5px;
+  cursor: pointer;
 }

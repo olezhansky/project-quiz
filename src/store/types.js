@@ -1,1 +1,3 @@
-export const SET_QUIZES = 'SET_QUIZES'
+export const SET_QUIZES = 'SET_QUIZES';
+export const CLEAR_QUIZES = 'CLEAR_QUIZES';
+export const SET_CURRENT_QUESTION = 'SET_CURRENT_QUESTION';

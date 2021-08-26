@@ -9,7 +9,7 @@ const Question = ({ quiz, onNext, quizesLength, currentQuestion, correctAnswers 
     setAnswerId(answer.id);
     correctAnswers(answer, quiz.id);
     setTimeout(() => {
-      onNext();
+      // onNext();
       setAnswerId(null);
     }, 1000);
   };
@@ -17,13 +17,14 @@ const Question = ({ quiz, onNext, quizesLength, currentQuestion, correctAnswers 
   return (
     <div className={styles.questionField}>
       <h2 className={styles.questionText}>{quiz.question}</h2>
-      <p>{currentQuestion + 1}/{quizesLength}</p>
+      <p className={styles.questionCounter}>{currentQuestion + 1}/{quizesLength}</p>
       <div className={styles.QuestionCard}>
         <div className={styles.questionImg}>
           <img src={quiz.img} alt={'img'}></img>
         </div>
         <ul className={styles.answerUl}>
           {quiz.answers.map((answer, index) => {
+            console.log(answer, index);
             return (
               <Answer
                 key={index}

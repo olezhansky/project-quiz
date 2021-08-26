@@ -1,6 +1,9 @@
-.QuizNavi {
+.QuizNaviResult {
   margin-top: 20px;
   display: flex;
   list-style: none;
   gap: 10px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }

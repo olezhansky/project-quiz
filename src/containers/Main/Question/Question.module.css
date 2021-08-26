@@ -1,10 +1,8 @@
 .questionField {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .QuestionCard {
-  max-width: 800px;
-  min-height: 600px;
-  margin: 20px auto;
+  margin-top: 20px;
   margin-bottom: 5px;
   background: #b9d4db;
   cursor: pointer;
@@ -19,6 +17,12 @@
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 5px;
+}
+.questionCounter {
+  margin-top: 10px;
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
 }
 .questionImg {
   width: 100%;

@@ -1,5 +1,6 @@
-.QuizNavItem{
-    width: 50px;
-    border: 1px solid black;
-    background: grey;
+.QuizNavItem {
+  width: 50px;
+  border: 1px solid black;
+  background: #fff;
+  padding: 10px 20px;
 }

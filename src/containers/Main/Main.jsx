@@ -1,11 +1,15 @@
 import React from 'react'
 import Question from './Question/Question'
 import QuizNavi from './QuizNavi/QuizNavi'
+import QuizNaviResult from './QuizNaviResult/QuizNaviResult'
+import styles from './Main.module.css'
 
 const Main = ({quizes, userAnswers, quizId, currentQuestion, correctAnswers, onNext}) => {
+    console.log('Main');
     return (
-        <div>
+        <div className={styles.Wrapper}>
           <QuizNavi quizes={quizes} userAnswers={userAnswers} quizId={quizId}/>
+          <QuizNaviResult userAnswers={userAnswers}/>
           <Question
             currentQuestion={currentQuestion}
             correctAnswers={correctAnswers}
@@ -18,4 +22,4 @@ const Main = ({quizes, userAnswers, quizId, currentQuestion, correctAnswers, onN
     )
 }
 
-export default Main
+export default Main;

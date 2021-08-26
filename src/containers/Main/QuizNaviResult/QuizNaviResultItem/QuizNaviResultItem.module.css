@@ -1,0 +1,12 @@
+.QuizNaviResultItemGreen {
+  width: 50px;
+  background: rgb(108, 255, 78);
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+.QuizNaviResultItemRed {
+  width: 50px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  background: rgb(255, 46, 46);
+}
